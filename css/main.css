@@ -11,11 +11,11 @@ html {
 
 
 body {
-  display:inline-block;
   vertical-align: middle;
   text-align: center;
   padding: 2em 1em;
   max-width: 25em;
+  margin: 0;
 }
 
 img {
@@ -23,7 +23,6 @@ img {
   max-width: 25em;
   width:100%;
 }
-
 a {
   padding: .4em .75em .5em;
   color: #333;
@@ -39,8 +38,12 @@ a:hover {
 }
 
 section {
-  display:inline-block;
   max-width: 25em;
   width: 100%;
   text-align: left;
+}
+
+
+section div {
+  display: inline-block;
 }
