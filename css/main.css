@@ -37,6 +37,10 @@ a:hover {
   color: #eee9de;
 }
 
+.btn {
+  display:inline-block;
+}
+
 section {
   max-width: 25em;
   width: 100%;
