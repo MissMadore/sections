@@ -12,10 +12,10 @@ html {
 
 body {
   display:inline-block;
+  vertical-align: middle;
   text-align: center;
   padding: 2em 1em;
   max-width: 25em;
-  margin: 0;
 }
 
 img {
@@ -38,8 +38,9 @@ a:hover {
   color: #eee9de;
 }
 
-.section {
-  display: inline-block;
+section {
+  display:inline-block;
   max-width: 25em;
+  width: 100%;
   text-align: left;
 }
