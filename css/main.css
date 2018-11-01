@@ -12,14 +12,11 @@ html {
 body {
   vertical-align: middle;
   text-align: center;
-  padding: 2em 1em;
-  max-width: 25em;
   margin: 0;
 }
 
 img {
   display: block;
-  max-width: 25em;
   width: 100%;
 }
 
@@ -42,7 +39,13 @@ a:hover {
 }
 
 section {
+  padding: 2em 0;
+}
+
+div {
   max-width: 25em;
-  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
   text-align: left;
 }
